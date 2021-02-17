@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header_wrapper">
+            <div class="header_row">
+                <figure class="header_img col-4">
+                    <img src="./1.jpg" alt="img">
+                </figure>
+                <div class="header_info col-8">
+                    <h1>Gornostaev Sergey</h1>
+                    <h2>Future Front-end Programmer</h2>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main_wrapper">
+            <div class="main_row">
+                <section class="main_column main_column-left col-3">
+                    <h3>Education</h3>
+                    <p>Belarus State Economic University, School of finance and banking, Finance, 2009-2013</p>
+                    <h3>Courses</h3>
+                    <ul>
+                        <li>Creating Websites used WordPress;</li>
+                        <li>Html, Css, Scss/Sass, Less, Gulp;</li>
+                        <li>Base JS (work with DOM);</li>
+                        <li>Advanced JS (API, ES6, Fetch, Promeses, Tokens, Webpack);</li>
+                        <li>How to up speed (Google PageSpeed 100/100).</li>
+                    </ul>
+                    <h3>Contact</h3>
+                    <ul>
+                        <li>+375296508584</li>
+                        <li>sergey********@mail.ru</li>
+                        <li>BY, Minsk, Dzerzhinskogo av.</li>
+                    </ul>
+                </section>
+                <section class="main_column col-9">
+                    <h3>Profile</h3>
+                    <p>I have a great desire to work in the field of front-end development and make a progress in this direction. My personal qualities are - serious attitude to the assigned responsibilities and creative approach to solving problems. Programming is very interesting thing for me. That's why I'm training all my free time. And now my goal is to become professional Front-end Developer.</p>
+                    <h3>Experience</h3>
+                    <p>I began programming 4 months ago. After had finished some online courses of web develpment, I created two websaites on WordPress.</p>
+                    <h3>Skills</h3>
+                        <ul>
+                            <li>
+                                <div class="skill">
+                                    <h4>JavaScript</h4>
+                                    <div class="dots">
+                                        <span class="dot dotFill"></span>
+                                        <span class="dot dotFill"></span>
+                                        <span class="dot"></span>
+                                        <span class="dot"></span>
+                                        <span class="dot"></span>
+                                    </div>                
+                                </div>
+                            </li>
+                            <li>
+                                <div class="skill">
+                                    <h4>Html&Css</h4>
+                                    <div class="dots">
+                                        <span class="dot dotFill"></span>
+                                        <span class="dot dotFill"></span>
+                                        <span class="dot dotFill"></span>
+                                        <span class="dot"></span>
+                                        <span class="dot"></span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="skill">
+                                    <h4>jQuery</h4>
+                                    <div class="dots">
+                                        <span class="dot dotFill"></span>
+                                        <span class="dot dotFill"></span>
+                                        <span class="dot"></span>
+                                        <span class="dot"></span>
+                                        <span class="dot"></span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="skill">
+                                    <h4>Npm</h4>
+                                    <div class="dots">
+                                        <span class="dot dotFill"></span>
+                                        <span class="dot"></span>
+                                        <span class="dot"></span>
+                                        <span class="dot"></span>
+                                        <span class="dot"></span>
+                                    </div>                            
+                            </div>
+                            </li>
+                            <li>
+                                <div class="skill">
+                                    <h4>Git</h4>
+                                    <div class="dots">
+                                        <span class="dot dotFill"></span>
+                                        <span class="dot"></span>
+                                        <span class="dot"></span>
+                                        <span class="dot"></span>
+                                        <span class="dot"></span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="skill">
+                                    <h4>WordPress</h4>
+                                    <div class="dots">
+                                        <span class="dot dotFill"></span>
+                                        <span class="dot dotFill"></span>
+                                        <span class="dot dotFill"></span>
+                                        <span class="dot"></span>
+                                        <span class="dot"></span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="skill">
+                                    <h4>Level English (Pre-intermediate (А2))</h4>
+                                    <div class="dots">
+                                        <span class="dot dotFill"></span>
+                                        <span class="dot dotFill"></span>
+                                        <span class="dot"></span>
+                                        <span class="dot"></span>
+                                        <span class="dot"></span>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    <div class="code">
+                        <h3>Exaple of Code</h3>
+                        <pre>
+                            <code>        
+    module.exports = function getSeason(date) {
+        if(!date) return 'Unable to determine the time of year!';
+        if(!date.getTime()) throw new Error ('THROWN');
+    
+        let seasonNumber = Math.floor((date.getMonth() + 1) / 3) % 4;
+    
+        if(seasonNumber === 0) return 'winter';
+        if(seasonNumber === 1) return 'spring';
+        if(seasonNumber === 2) return 'summer';
+        if(seasonNumber === 3) return 'autumn';
+    };  
+                            </code>
+                        </pre>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer_wrapper">
+            <div class="footer_info">2021 <a href="https://github.com/gorr2012">github</a> © Все права защищены.</div> 
+        </div>
+    </footer>
+    <link rel="stylesheet" href="style.css" />
+</body>
+</html>
