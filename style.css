@@ -51,6 +51,23 @@ img{
     padding-left: 30px;
     padding-right: 30px;
 }
+.skill{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dotFill{
+    background-color: #FFBF00;
+}
+.dot{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 1px solid #FFBF00;
+    display: inline-block;
+    margin-left: 10px;
+}
+
 @media (min-width: 750px){
         
     .header_wrapper,.main_wrapper{
