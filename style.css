@@ -15,6 +15,17 @@ img{
 h1{
     font-size: 48px;
 }
+h3{
+    color: #330570;
+    border-bottom: 2px solid #FFBF00;
+    text-transform: uppercase;
+}
+h4{
+    margin-top: 5px;
+}
+p, li{
+    line-height: 1.5rem;
+}
 .header_wrapper{
     background-color: #a7cce985;
     max-width: 750px;
@@ -36,9 +47,13 @@ img{
     padding-left: 15px;
     padding-right: 15px;
 }
+.main_column{
+    padding-left: 30px;
+    padding-right: 30px;
+}
 @media (min-width: 750px){
         
-    .header_wrapper{
+    .header_wrapper,.main_wrapper{
         max-width: 1024px;
         margin: 0 auto;
     }
@@ -50,6 +65,16 @@ img{
     .main_row{
         display: flex;
     }
+    .main_column{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .main_column-left{
+        background-color: #e9eaed;
+    }
+    .col-3{
+        width: calc(100% / 12 * 3 - 30px);
+    }
     .col-4{
         margin: 0 15px;
         width: calc(100% / 12 * 4 - 30px);
@@ -57,5 +82,8 @@ img{
     .col-8{
         margin: 0 15px;
         width: calc(100% / 12 * 8 - 30px);
+    }
+    .col-9{
+        width: calc(100% / 12 * 9 - 30px);
     }
 }
