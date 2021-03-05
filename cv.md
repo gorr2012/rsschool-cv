@@ -31,5 +31,6 @@ module.exports = function getSeason(date) {
 * Base JS (work with DOM);
 * Advanced JS (API, ES6, Fetch, Promeses, Tokens, Webpack);
 * How to up speed (Google PageSpeed 100/100).
+
 ## English Level
 Pre-intermediate (А2)
