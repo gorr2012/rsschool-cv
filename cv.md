@@ -10,6 +10,7 @@ I have a great desire to work in the field of front-end development and make a p
 4. Npm,
 5. Git,
 6. WordPress
+
 ## Example code
 ```
 module.exports = function getSeason(date) {
